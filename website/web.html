@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce</title>
+    <link rel="stylesheet" href="./web.css">
+    <script src="./web.js" async></script>
+    <script src ="https://cdnjs.cloudflare.com/ajax/libs/axios/1.2.1/axios.min.js"></script>
+</head>
+<body>
+    <div id="EcommerceContainer">
+        <header>
+            <ul class='header'>
+                <li><a href="./homeweb.html">HOME</a></li>
+                <li><a href="#">STORE</a></li>
+                <li><a href="./aboutweb.html">ABOUT</a></li>
+                <a href="./order.html" class="anchor">ORDERS</a>
+                <button class="cart-holder" id="muzz">cart</button>
+            </ul>
+           
+            <h1>SUPER BIKES</h1>
+        </header>
+
+        <!-- ************************Bikes********************** -->
+
+        <section id="bike" class="container">
+            <h2>BIKES</h2>
+            <div id ="bike-content">
+                <!-- <div id='bike1'>
+                    <h3>Suzuki hayabusa</h3>
+                    <div class="image-container">
+                        <img class="prod-images" src="https://bd.gaadicdn.com/processedimages/suzuki/hayabusa/640X309/hayabusa614d56bddfc73.jpg" alt="">
+                    </div>
+                    <div class="prod-details">
+                        <span>₹<span>16.41L</span></span>
+                        <button class="shop-item-button" type='button'>ADD TO CART</button>
+                    </div>
+                </div>
+                <div id='bike2'>
+                    <h3>Keeway</h3>
+                    <div class="image-container">
+                        <img class="prod-images" src="https://imgd.aeplcdn.com/1280x720/n/cw/ec/129571/v302c-right-front-three-quarter.gif?isig=0&q=80" alt="">
+                    </div>
+                                    <div class="prod-details">
+                        <span>₹<span>5.10L</span></span>
+                        <button class="shop-item-button" type='button'>ADD TO CART</button>
+                    </div>
+                </div>
+                <div id='bike3'>
+                    <h3>Kawasaki Ninja</h3>
+                    <div class="image-container">
+                        <img class="prod-images" src="https://bd.gaadicdn.com/processedimages/kawasaki/ninja-400/494X300/ninja-40062b2c5cfde9df.jpg?imwidth=380&impolicy=resize" alt="">
+                    </div>
+                                    <div class="prod-details">
+                        <span>₹<span>4.99L</span></span>
+                        <button class="shop-item-button" type='button'>ADD TO CART</button>
+                    </div>
+                </div>
+                <div id='bike4'>
+                    <h3>BMW S 1000 RR</h3>
+                    <div class="image-container">
+                        <img class="prod-images" src="https://media.zigcdn.com/media/model/2020/Feb/s-100-rr_600x400.jpg" alt="">
+                    </div>
+                                    <div class="prod-details">
+                        <span>₹<span>19.75L</span></span>
+                        <button class="shop-item-button" type='button'>ADD TO CART</button>
+                    </div>
+                </div> -->
+            </div>
+
+        </section>
+
+        <!-- ******************Pagination***************** -->
+        <div class="pagination" id="pagination"></div>
+
+        <!-- **********Cart******* -->
+        <div class="popup-container" id="container">
+            <div class="popup">
+              <section class="container">
+                <h2 class="section-header">CART</h2>
+                <button class="close">Close</button>
+                <div class="cart-row">
+                  <span class="cart-item cart-header cart-column">ITEM</span>
+                  <span class="cart-price cart-header cart-column">PRICE</span>
+                  <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+                  
+                   </div>
+                   <hr style="font-weight: bold;color:black">
+                <div class="cart-items">
+                 
+                 </div>
+                <!-- <hr> -->
+                <div class="cart-total">
+                  <strong class="cart-total-title">Total</strong>
+                  <span class="cart-total-price"></span> 
+             </div>
+                 <button class="btn btn-primary btn-purchase" type="button" id="purchasebtn">
+                  PURCHASE
+                </button> 
+                
+              </section>
+            </div>
+          </div>
+          <br />
+   <!-- ******* Footer************ -->
+    <footer>
+        <div class="footer-title">
+            CLASSIC SUPER BIKES
+        </div>
+        <div class="footer-icons">
+            <ul>
+                <li xlarge><a href="https://www.youtube.com">
+                    <img src="https://cdn.mos.cms.futurecdn.net/8gzcr6RpGStvZFA2qRt4v6.jpg" alt="">
+                </a></li>
+                <li><a href="https://www.bikedekho.com/">
+                    <img src="https://bd.gaadicdn.com/pwa/img/bd-logo.svg" alt="">
+                </a></li>
+                <li><a href="https://www.instagram.com/">
+                    <img src="https://pbs.twimg.com/profile_images/1526231349354303489/3Bg-2ZsT_400x400.jpg" alt="">
+                </a></li>
+            </ul>
+        </div>
+    </footer>
+    
+</body>
+</html>
